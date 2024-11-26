@@ -18,7 +18,7 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
 
 
 ## Getting Started
-
+---
 1. Navigate to the directory you want to put the application and clone this repository:
     ```bash
     gh repo clone ivzeng/DreamCraft-Resume-Editor
@@ -44,7 +44,7 @@ Feel free to send an email at ivanyhzeng@gmail.com about anything you'd want to 
 
 
 ## UI
-
+---
 - Main Menu
     ![](demo/screenshot/front_1.png)
 
