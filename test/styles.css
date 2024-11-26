@@ -1,0 +1,51 @@
+/* styles.css */
+.tabular-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tabular-item {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Bullet styles */
+.bullet-dot ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.bullet-dot ul li::before {
+    content: "•";
+    margin-right: 10px;
+}
+
+.bullet-hyphen ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.bullet-hyphen ul li::before {
+    content: "-";
+    margin-right: 10px;
+}
+
+.bullet-arrow ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.bullet-arrow ul li::before {
+    content: ">";
+    margin-right: 10px;
+}
