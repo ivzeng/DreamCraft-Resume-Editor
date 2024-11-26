@@ -18,7 +18,7 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
 
 
 ## Getting Started
----
+
 1. Navigate to the directory you want to put the application and clone this repository:
     ```bash
     gh repo clone ivzeng/DreamCraft-Resume-Editor
@@ -36,15 +36,16 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
     ```bash
     playwright install
     ```
-4. Run main.py. Makesure that you have Python ($\ge$ 3.10) installed.
+4. Run main.py. Make sure that you have Python ($\ge$ 3.10) installed.
 
 
 ## Emailware
-Feel free to send an email at ivanyhzeng@gmail.com about anything you'd want to say about this software. I'd really appreciate it!
+
+Please feel free to email me at ivanyhzeng@gmail.com with anything you'd like to say about this software. I'd appreciate it!
 
 
 ## UI
----
+
 - Main Menu
     ![](demo/screenshot/front_1.png)
 
@@ -54,7 +55,7 @@ Feel free to send an email at ivanyhzeng@gmail.com about anything you'd want to 
     ![](demo/screenshot/workspace_3.png)
 
 ## References
----
+
 - Resume Template: https://www.freecodecamp.org/news/writing-a-killer-software-engineering-resume-b11c91ef699d/
 
 
