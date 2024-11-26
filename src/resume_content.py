@@ -14,7 +14,7 @@ from playwright.async_api import async_playwright
 import os
 import os.path as osp
 import json
-import fitz
+import pymupdf
 from PIL import Image
 
 from .ui import *
@@ -78,7 +78,7 @@ class ResumeContent:
     def as_images(self) -> list:
         path = 'temp/temp.pdf'
         self.to_pdf(path)
-        content_pdf = fitz.open(path)
+        content_pdf = pymupdf.open(path)
         images = list()
         for page in content_pdf:
             pix = page.get_pixmap()
