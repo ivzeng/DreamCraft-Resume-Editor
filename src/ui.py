@@ -283,7 +283,9 @@ class GraphicalUserInterface:
                 **args)
             widgets[tag] = button
         button = widgets[tag]
-        button.configure(command=command, text=text)
+        button.configure(
+            command=command, text=text, background=background,
+            borderwidth=borderwidth, relief=relief, **args)
         button.place(
             x=x, y=y, relx=relx, rely=rely,
             width=width, height=height, relwidth=relwidth, relheight=relheight,
@@ -324,7 +326,9 @@ class GraphicalUserInterface:
                 **args)
             widgets[tag] = label
         label = widgets[tag]
-        label.configure(text=text)
+        label.configure(
+            text=text, background=background,
+            borderwidth=borderwidth, relief=relief, **args)
         label.place(
             x=x, y=y, relx=relx, rely=rely,
             width=width, height=height, relwidth=relwidth, relheight=relheight,
@@ -371,6 +375,9 @@ class GraphicalUserInterface:
         stext = widgets[tag]
         stext.delete('1.0', tk.END)
         stext.insert('1.0', text)
+        stext.configure(
+            background=background, borderwidth=borderwidth,
+            relief=relief, **args)
         stext.place(
             x=x, y=y, relx=relx, rely=rely,
             width=width, height=height,
@@ -409,7 +416,8 @@ class GraphicalUserInterface:
             master=master, font=font, background=background,
             borderwidth=borderwidth, relief=relief, **args)
         set_menu_content(menu, command_graph)
-        master.config(menu=menu)
+        master.config(menu=menu, background=background,
+            borderwidth=borderwidth, relief=relief, **args)
         return menu
 
 
@@ -450,7 +458,9 @@ class GraphicalUserInterface:
         mb = widgets[tag]
         menu = self.set_menu(master=mb, command_graph=command_graph,
                              background=menu_background)
-        mb.configure(menu=menu, text=text)
+        mb.configure(
+            menu=menu, text=text, background=background,
+            borderwidth=borderwidth, relief=relief, **args)
         mb.place(
             x=x, y=y, relx=relx, rely=rely,
             width=width, height=height,

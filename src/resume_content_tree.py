@@ -951,6 +951,7 @@ class Itemization(ContentTreeNode):
             **args
         )
         coordinate[0] += xpad
+        #print(self.get_bottom_component())
 
         self.draw_attr_editor(
             ui=ui, master_tag=master_tag, tag=tag_pref,
@@ -1304,7 +1305,7 @@ class Tabular(Itemization):
         super().__init__(content, parent)
         self.table_width = str(content.get("table_width", '1'))
         self.attrs = ['table_width']
-        self.insert_type = ['TextElement', 'URLElement']
+        self.insert_type = ['TextElement', 'URLElement', 'TextLine']
 
     
     def __str__(self):
@@ -1401,7 +1402,13 @@ class Decorator(ContentTreeNode):
     def as_markdown(self):
         return self.component.as_markdown
 
-    
+    @property
+    def display_color(self):
+        return [GraphicalUserInterface.COL_RED_3,
+                GraphicalUserInterface.COL_RED_3,
+                GraphicalUserInterface.COL_RED_3,
+                GraphicalUserInterface.COL_RED_3,
+                GraphicalUserInterface.COL_RED_3]
 
     def draw_editor(
             self,
@@ -1546,6 +1553,8 @@ class StyledFont(Decorator):
         self.italic: int = content.get("italic", 0)
         self.underline: int = content.get("underline", 0)
         self.attrs = ['font_size', 'font_family','bold', 'italic', 'underline']
+    
+
 
 
     def  __str__(self):
