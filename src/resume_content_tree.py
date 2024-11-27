@@ -943,6 +943,15 @@ class Itemization(ContentTreeNode):
             return
         coordinate[0] += xpad
 
+        self.draw_collapse_button(
+                root=root, ui=ui, master_tag=master_tag, tag=f'header_tag_small',
+                text='Collapse', font=font,
+                coordinate=[init_x+header_width+5+bwidth*1.2, init_y+header_height/1.8],
+                width=header_width/1.5-bwidth*1.2, height=header_height/1.8,
+                background=col_buttons_1,
+                **args
+            )
+
         dc_tag = f"{tag_pref}_dc"
         self.draw_decorators_config(
             root=root, ui=ui, master_tag=master_tag, dc_tag=dc_tag, font=font,
