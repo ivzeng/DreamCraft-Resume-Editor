@@ -44,15 +44,9 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
 Please feel free to email me at ivanyhzeng@gmail.com with anything you'd like to say about this software. I'd appreciate it!
 
 
-## UI
+## Demo
 
-- Main Menu
-    ![](demo/screenshot/front_1.png)
-
-- Workspace
-    ![](demo/screenshot/workspace_1.png)
-    ![](demo/screenshot/workspace_2.png)
-    ![](demo/screenshot/workspace_3.png)
+https://youtu.be/I41Lm6zrmmQ
 
 ## References
 
