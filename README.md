@@ -46,7 +46,7 @@ Please feel free to email me at ivanyhzeng@gmail.com with anything you'd like to
 
 ## Demo
 
-https://youtu.be/I41Lm6zrmmQ
+[![Watch the video](demo/screenshot/front_1.png)](https://youtu.be/I41Lm6zrmmQ)
 
 ## References
 
