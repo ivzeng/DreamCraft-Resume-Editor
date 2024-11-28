@@ -17,18 +17,28 @@
                     "info": "Basic Info",
                     "components": [
                         {
-                            "type": "Header",
+                            "type": "StyledFont",
                             "status": 1,
-                            "info": "Name",
-                            "components": [
-                                {
-                                    "type": "TextElement",
-                                    "status": 1,
-                                    "info": "TextElement",
-                                    "value": "Yuhong Zeng"
-                                }
-                            ],
-                            "level": "1"
+                            "info": "StyledFont",
+                            "component": {
+                                "type": "Header",
+                                "status": 1,
+                                "info": "Name",
+                                "components": [
+                                    {
+                                        "type": "TextElement",
+                                        "status": 1,
+                                        "info": "TextElement",
+                                        "value": "Yuhong Zeng"
+                                    }
+                                ],
+                                "level": "1"
+                            },
+                            "font_size": "1em",
+                            "font_family": "Garamond",
+                            "bold": 0,
+                            "italic": 0,
+                            "underline": 0
                         },
                         {
                             "type": "BoxMargin",
@@ -346,215 +356,141 @@
                                 "info": "Education Sample(s)",
                                 "components": [
                                     {
-                                        "type": "Sequence",
+                                        "type": "StyledFont",
                                         "status": 1,
-                                        "info": "Template",
-                                        "components": [
-                                            {
-                                                "type": "Tabular",
-                                                "status": 1,
-                                                "info": "General Info",
-                                                "components": [
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "Location",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[Location]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Montserrat",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
-                                                        },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "0px"
-                                                    },
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "School Name",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[School Name]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Montserrat",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
-                                                        },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "0px"
-                                                    },
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "Period",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[Period]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Montserrat",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
-                                                        },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "30px"
-                                                    }
-                                                ],
-                                                "table_width": "3"
-                                            },
-                                            {
-                                                "type": "BoxMargin",
-                                                "status": 1,
-                                                "info": "BoxMargin",
-                                                "component": {
-                                                    "type": "UnorderedList",
+                                        "info": "StyledFont",
+                                        "component": {
+                                            "type": "Sequence",
+                                            "status": 1,
+                                            "info": "Template",
+                                            "components": [
+                                                {
+                                                    "type": "StyledFont",
                                                     "status": 1,
-                                                    "info": "Details",
-                                                    "components": [
-                                                        {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "Major",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
+                                                    "info": "StyledFont",
+                                                    "component": {
+                                                        "type": "Tabular",
+                                                        "status": 1,
+                                                        "info": "General Info",
+                                                        "components": [
+                                                            {
+                                                                "type": "BoxMargin",
+                                                                "status": 1,
+                                                                "info": "BoxMargin",
+                                                                "component": {
+                                                                    "type": "TextLine",
                                                                     "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "Major: "
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                },
-                                                                {
-                                                                    "type": "InlineList",
-                                                                    "status": 1,
-                                                                    "info": "InlineList",
+                                                                    "info": "Location",
                                                                     "components": [
                                                                         {
-                                                                            "type": "TextElement",
+                                                                            "type": "StyledFont",
                                                                             "status": 1,
-                                                                            "info": "TextElement",
-                                                                            "value": "[major 1]"
-                                                                        },
-                                                                        {
-                                                                            "type": "TextElement",
-                                                                            "status": 1,
-                                                                            "info": "TextElement",
-                                                                            "value": "[major 2]"
+                                                                            "info": "StyledFont",
+                                                                            "component": {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "[Location]"
+                                                                            },
+                                                                            "font_size": "1em",
+                                                                            "font_family": "Garamond",
+                                                                            "bold": 1,
+                                                                            "italic": 0,
+                                                                            "underline": 0
                                                                         }
                                                                     ]
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "Certificate (Minor)",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "Certificate (Minor): "
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
                                                                 },
-                                                                {
-                                                                    "type": "InlineList",
+                                                                "margin_n": "0px",
+                                                                "margin_e": "0px",
+                                                                "margin_s": "0px",
+                                                                "margin_w": "0px"
+                                                            },
+                                                            {
+                                                                "type": "BoxMargin",
+                                                                "status": 1,
+                                                                "info": "BoxMargin",
+                                                                "component": {
+                                                                    "type": "TextLine",
                                                                     "status": 1,
-                                                                    "info": "InlineList",
+                                                                    "info": "School Name",
                                                                     "components": [
                                                                         {
-                                                                            "type": "TextElement",
+                                                                            "type": "StyledFont",
                                                                             "status": 1,
-                                                                            "info": "TextElement",
-                                                                            "value": "[minor 1]"
-                                                                        },
-                                                                        {
-                                                                            "type": "TextElement",
-                                                                            "status": 1,
-                                                                            "info": "TextElement",
-                                                                            "value": "[minor 2]"
+                                                                            "info": "StyledFont",
+                                                                            "component": {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "[School Name]"
+                                                                            },
+                                                                            "font_size": "1em",
+                                                                            "font_family": "Garamond",
+                                                                            "bold": 1,
+                                                                            "italic": 0,
+                                                                            "underline": 0
                                                                         }
                                                                     ]
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "type": "BoxMargin",
-                                                            "status": 1,
-                                                            "info": "BoxMargin",
-                                                            "component": {
+                                                                },
+                                                                "margin_n": "0px",
+                                                                "margin_e": "0px",
+                                                                "margin_s": "0px",
+                                                                "margin_w": "0px"
+                                                            },
+                                                            {
+                                                                "type": "BoxMargin",
+                                                                "status": 1,
+                                                                "info": "BoxMargin",
+                                                                "component": {
+                                                                    "type": "TextLine",
+                                                                    "status": 1,
+                                                                    "info": "Period",
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "StyledFont",
+                                                                            "status": 1,
+                                                                            "info": "StyledFont",
+                                                                            "component": {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "[Period]"
+                                                                            },
+                                                                            "font_size": "1em",
+                                                                            "font_family": "Garamond",
+                                                                            "bold": 1,
+                                                                            "italic": 0,
+                                                                            "underline": 0
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "margin_n": "0px",
+                                                                "margin_e": "0px",
+                                                                "margin_s": "0px",
+                                                                "margin_w": "30px"
+                                                            }
+                                                        ],
+                                                        "table_width": "3"
+                                                    },
+                                                    "font_size": "1em",
+                                                    "font_family": "Garamond",
+                                                    "bold": 1,
+                                                    "italic": 0,
+                                                    "underline": 0
+                                                },
+                                                {
+                                                    "type": "BoxMargin",
+                                                    "status": 1,
+                                                    "info": "BoxMargin",
+                                                    "component": {
+                                                        "type": "UnorderedList",
+                                                        "status": 1,
+                                                        "info": "Details",
+                                                        "components": [
+                                                            {
                                                                 "type": "TextLine",
                                                                 "status": 1,
-                                                                "info": "Relevant Coursework",
+                                                                "info": "Major",
                                                                 "components": [
                                                                     {
                                                                         "type": "StyledFont",
@@ -564,7 +500,7 @@
                                                                             "type": "TextElement",
                                                                             "status": 1,
                                                                             "info": "TextElement",
-                                                                            "value": "Relevant Coursework: "
+                                                                            "value": "Major: "
                                                                         },
                                                                         "font_size": "1em",
                                                                         "font_family": "Garamond",
@@ -581,44 +517,138 @@
                                                                                 "type": "TextElement",
                                                                                 "status": 1,
                                                                                 "info": "TextElement",
-                                                                                "value": "[course 1]"
+                                                                                "value": "[major 1]"
                                                                             },
                                                                             {
                                                                                 "type": "TextElement",
                                                                                 "status": 1,
                                                                                 "info": "TextElement",
-                                                                                "value": "[course 2]"
-                                                                            },
-                                                                            {
-                                                                                "type": "TextElement",
-                                                                                "status": 1,
-                                                                                "info": "TextElement",
-                                                                                "value": "[course 3]"
+                                                                                "value": "[major 2]"
                                                                             }
                                                                         ]
                                                                     }
                                                                 ]
                                                             },
-                                                            "margin_n": "0px",
-                                                            "margin_e": "100px",
-                                                            "margin_s": "0px",
-                                                            "margin_w": "0px"
-                                                        }
-                                                    ]
-                                                },
-                                                "margin_n": "-15px",
-                                                "margin_e": "0px",
-                                                "margin_s": "-10px",
-                                                "margin_w": "0px"
-                                            }
-                                        ]
+                                                            {
+                                                                "type": "TextLine",
+                                                                "status": 1,
+                                                                "info": "Certificate (Minor)",
+                                                                "components": [
+                                                                    {
+                                                                        "type": "StyledFont",
+                                                                        "status": 1,
+                                                                        "info": "StyledFont",
+                                                                        "component": {
+                                                                            "type": "TextElement",
+                                                                            "status": 1,
+                                                                            "info": "TextElement",
+                                                                            "value": "Certificate (Minor): "
+                                                                        },
+                                                                        "font_size": "1em",
+                                                                        "font_family": "Garamond",
+                                                                        "bold": 1,
+                                                                        "italic": 0,
+                                                                        "underline": 0
+                                                                    },
+                                                                    {
+                                                                        "type": "InlineList",
+                                                                        "status": 1,
+                                                                        "info": "InlineList",
+                                                                        "components": [
+                                                                            {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "[minor 1]"
+                                                                            },
+                                                                            {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "[minor 2]"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "BoxMargin",
+                                                                "status": 1,
+                                                                "info": "BoxMargin",
+                                                                "component": {
+                                                                    "type": "TextLine",
+                                                                    "status": 1,
+                                                                    "info": "Relevant Coursework",
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "StyledFont",
+                                                                            "status": 1,
+                                                                            "info": "StyledFont",
+                                                                            "component": {
+                                                                                "type": "TextElement",
+                                                                                "status": 1,
+                                                                                "info": "TextElement",
+                                                                                "value": "Relevant Coursework: "
+                                                                            },
+                                                                            "font_size": "1em",
+                                                                            "font_family": "Garamond",
+                                                                            "bold": 1,
+                                                                            "italic": 0,
+                                                                            "underline": 0
+                                                                        },
+                                                                        {
+                                                                            "type": "InlineList",
+                                                                            "status": 1,
+                                                                            "info": "InlineList",
+                                                                            "components": [
+                                                                                {
+                                                                                    "type": "TextElement",
+                                                                                    "status": 1,
+                                                                                    "info": "TextElement",
+                                                                                    "value": "[course 1]"
+                                                                                },
+                                                                                {
+                                                                                    "type": "TextElement",
+                                                                                    "status": 1,
+                                                                                    "info": "TextElement",
+                                                                                    "value": "[course 2]"
+                                                                                },
+                                                                                {
+                                                                                    "type": "TextElement",
+                                                                                    "status": 1,
+                                                                                    "info": "TextElement",
+                                                                                    "value": "[course 3]"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "margin_n": "0px",
+                                                                "margin_e": "100px",
+                                                                "margin_s": "0px",
+                                                                "margin_w": "0px"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "margin_n": "-15px",
+                                                    "margin_e": "0px",
+                                                    "margin_s": "-10px",
+                                                    "margin_w": "-20px"
+                                                }
+                                            ]
+                                        },
+                                        "font_size": "1em",
+                                        "font_family": "Garamond",
+                                        "bold": 0,
+                                        "italic": 0,
+                                        "underline": 0
                                     }
                                 ]
                             },
                             "margin_n": "-5px",
                             "margin_e": "0px",
                             "margin_s": "0px",
-                            "margin_w": "10px"
+                            "margin_w": "0px"
                         }
                     ]
                 },
@@ -689,27 +719,37 @@
                                                         "status": 1,
                                                         "info": "BoxMargin",
                                                         "component": {
-                                                            "type": "TextLine",
+                                                            "type": "StyledFont",
                                                             "status": 1,
-                                                            "info": "Job Title",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
+                                                            "info": "StyledFont",
+                                                            "component": {
+                                                                "type": "TextLine",
+                                                                "status": 1,
+                                                                "info": "Job Title",
+                                                                "components": [
+                                                                    {
+                                                                        "type": "StyledFont",
                                                                         "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[Job Title]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
+                                                                        "info": "StyledFont",
+                                                                        "component": {
+                                                                            "type": "TextElement",
+                                                                            "status": 1,
+                                                                            "info": "TextElement",
+                                                                            "value": "[Job Title]"
+                                                                        },
+                                                                        "font_size": "1em",
+                                                                        "font_family": "Garamond",
+                                                                        "bold": 1,
+                                                                        "italic": 0,
+                                                                        "underline": 0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "font_size": "1em",
+                                                            "font_family": "Garamond",
+                                                            "bold": 1,
+                                                            "italic": 0,
+                                                            "underline": 0
                                                         },
                                                         "margin_n": "0px",
                                                         "margin_e": "0px",
@@ -765,7 +805,7 @@
                                                                         "type": "TextElement",
                                                                         "status": 1,
                                                                         "info": "TextElement",
-                                                                        "value": "[period]"
+                                                                        "value": "[Period]"
                                                                     },
                                                                     "font_size": "1em",
                                                                     "font_family": "Garamond",
@@ -918,7 +958,7 @@
                                                 "margin_n": "-15px",
                                                 "margin_e": "0px",
                                                 "margin_s": "-10px",
-                                                "margin_w": "0px"
+                                                "margin_w": "-20px"
                                             }
                                         ]
                                     }
@@ -927,7 +967,7 @@
                             "margin_n": "-5px",
                             "margin_e": "0px",
                             "margin_s": "0px",
-                            "margin_w": "10px"
+                            "margin_w": "0px"
                         }
                     ]
                 },
@@ -981,133 +1021,84 @@
                             "component": {
                                 "type": "Sequence",
                                 "status": 1,
-                                "info": "Samples",
+                                "info": "Project Samples",
                                 "components": [
                                     {
                                         "type": "Sequence",
                                         "status": 1,
-                                        "info": "Work Sample Template",
+                                        "info": "Project Sample Template",
                                         "components": [
                                             {
-                                                "type": "Tabular",
+                                                "type": "BoxMargin",
                                                 "status": 1,
-                                                "info": "General Info",
-                                                "components": [
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
+                                                "info": "BoxMargin",
+                                                "component": {
+                                                    "type": "Tabular",
+                                                    "status": 1,
+                                                    "info": "General Info",
+                                                    "components": [
+                                                        {
+                                                            "type": "BoxMargin",
                                                             "status": 1,
-                                                            "info": "Job Title",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
+                                                            "info": "BoxMargin",
+                                                            "component": {
+                                                                "type": "TextLine",
+                                                                "status": 1,
+                                                                "info": "Project Title",
+                                                                "components": [
+                                                                    {
+                                                                        "type": "StyledFont",
                                                                         "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[Job Title]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
+                                                                        "info": "StyledFont",
+                                                                        "component": {
+                                                                            "type": "TextElement",
+                                                                            "status": 1,
+                                                                            "info": "TextElement",
+                                                                            "value": "[Project Title]"
+                                                                        },
+                                                                        "font_size": "1em",
+                                                                        "font_family": "Garamond",
+                                                                        "bold": 1,
+                                                                        "italic": 0,
+                                                                        "underline": 0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "margin_n": "0px",
+                                                            "margin_e": "0px",
+                                                            "margin_s": "0px",
+                                                            "margin_w": "0px"
                                                         },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "0px"
-                                                    },
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
+                                                        {
+                                                            "type": "BoxMargin",
                                                             "status": 1,
-                                                            "info": "Company Name",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
+                                                            "info": "BoxMargin",
+                                                            "component": {
+                                                                "type": "TextLine",
+                                                                "status": 1,
+                                                                "info": "Project Link",
+                                                                "components": [
+                                                                    {
+                                                                        "type": "URLElement",
                                                                         "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[Company Name]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
-                                                        },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "0px"
-                                                    },
-                                                    {
-                                                        "type": "BoxMargin",
-                                                        "status": 1,
-                                                        "info": "BoxMargin",
-                                                        "component": {
-                                                            "type": "TextLine",
-                                                            "status": 1,
-                                                            "info": "Period",
-                                                            "components": [
-                                                                {
-                                                                    "type": "StyledFont",
-                                                                    "status": 1,
-                                                                    "info": "StyledFont",
-                                                                    "component": {
-                                                                        "type": "TextElement",
-                                                                        "status": 1,
-                                                                        "info": "TextElement",
-                                                                        "value": "[period]"
-                                                                    },
-                                                                    "font_size": "1em",
-                                                                    "font_family": "Garamond",
-                                                                    "bold": 1,
-                                                                    "italic": 0,
-                                                                    "underline": 0
-                                                                }
-                                                            ]
-                                                        },
-                                                        "margin_n": "0px",
-                                                        "margin_e": "0px",
-                                                        "margin_s": "0px",
-                                                        "margin_w": "30px"
-                                                    },
-                                                    {
-                                                        "type": "StyledFont",
-                                                        "status": 1,
-                                                        "info": "StyledFont",
-                                                        "component": {
-                                                            "type": "URLElement",
-                                                            "status": 1,
-                                                            "info": "URLElement",
-                                                            "value": "[Link to Project]",
-                                                            "url": "https://github.com/ivzeng"
-                                                        },
-                                                        "font_size": "1em",
-                                                        "font_family": "Garamond",
-                                                        "bold": 1,
-                                                        "italic": 0,
-                                                        "underline": 0
-                                                    }
-                                                ],
-                                                "table_width": "3"
+                                                                        "info": "URLElement",
+                                                                        "value": "[Link to Project]",
+                                                                        "url": "https://github.com/ivzeng"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "margin_n": "0px",
+                                                            "margin_e": "0px",
+                                                            "margin_s": "0px",
+                                                            "margin_w": "100px"
+                                                        }
+                                                    ],
+                                                    "table_width": "3"
+                                                },
+                                                "margin_n": "0px",
+                                                "margin_e": "0px",
+                                                "margin_s": "0px",
+                                                "margin_w": "0px"
                                             },
                                             {
                                                 "type": "BoxMargin",
@@ -1227,7 +1218,7 @@
                                                 "margin_n": "-15px",
                                                 "margin_e": "0px",
                                                 "margin_s": "-10px",
-                                                "margin_w": "0px"
+                                                "margin_w": "-20px"
                                             }
                                         ]
                                     }
@@ -1236,7 +1227,7 @@
                             "margin_n": "-5px",
                             "margin_e": "0px",
                             "margin_s": "0px",
-                            "margin_w": "10px"
+                            "margin_w": "0px"
                         }
                     ]
                 },
@@ -1454,7 +1445,7 @@
             ]
         },
         "font_size": "1em",
-        "font_family": "Garamond",
+        "font_family": "Serif",
         "bold": 0,
         "italic": 0,
         "underline": 0

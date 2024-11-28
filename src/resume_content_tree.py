@@ -948,7 +948,7 @@ class Itemization(ContentTreeNode):
                 text='Collapse', font=font,
                 coordinate=[init_x+header_width+5+bwidth*1.2, init_y+header_height/1.8],
                 width=header_width/1.5-bwidth*1.2, height=header_height/1.8,
-                background=col_buttons_1,
+                background=col_buttons_2,
                 **args
             )
 
