@@ -150,8 +150,8 @@ class ResumeBuilder:
         font_family = self.ui.FONT_FAMILY_3
         self.ui.set_frame(
             master_tag='frame_0', tag=f1_master_tag,
-            relx=0, rely=0.6,
-            relwidth=0.35, relheight=0.4,
+            relx=0, rely=0,
+            relwidth=0.35, relheight=0.3,
             background=col_bg)
         self.ui.clear_frame_content(f1_master_tag)
         
@@ -192,8 +192,8 @@ class ResumeBuilder:
         col_bg = self.ui.COL_SKY_2
         self.ui.set_frame(
             master_tag='frame_0', tag=f2_master_tag,
-            relx=0, rely=0,
-            height=-10, relwidth=0.35, relheight=0.6,
+            relx=0.35, rely=0,
+            relwidth=0.65, relheight=0.3,
             background=col_bg,
             scroll='hv')
         self.ui.clear_frame_content(f2_master_tag)
@@ -205,8 +205,8 @@ class ResumeBuilder:
         font_family = self.ui.FONT_FAMILY_3
         self.ui.set_frame(
             master_tag='frame_0', tag=f3_master_tag,
-            relx=0.35, rely=0,
-            relwidth=0.65, relheight=1,
+            relx=0, rely=0.3,
+            relwidth=1, relheight=0.65,
             background=col_bg,
             scroll='hv')
         self.ui.clear_frame_content(f3_master_tag)

@@ -51,10 +51,9 @@ class ResumeContent:
 <!DOCTYPE html><html><head><title>My Resume</title>
     <style>
         body {
-            height: 612px;
-            width: 791px;
-            margin-left: 50px;
-            margin-right: 50px;
+            height: 816px;
+            width: 1056px;
+            margin: 0px, 0px, 0px, 0px
         }
     </style></head>
     '''

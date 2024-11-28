@@ -29,7 +29,7 @@
                                         "type": "TextElement",
                                         "status": 1,
                                         "info": "TextElement",
-                                        "value": "Yuhong Zeng"
+                                        "value": "[Your Name]"
                                     }
                                 ],
                                 "level": "1"
@@ -57,7 +57,7 @@
                                             "type": "TextElement",
                                             "status": 1,
                                             "info": "TextElement",
-                                            "value": "Software Developer"
+                                            "value": "[Your Title]"
                                         }
                                     ],
                                     "level": "2"
@@ -70,7 +70,7 @@
                             },
                             "margin_n": "-20px",
                             "margin_e": "0px",
-                            "margin_s": "10px",
+                            "margin_s": "0px",
                             "margin_w": "20px"
                         },
                         {
@@ -111,7 +111,7 @@
                                                     "type": "TextElement",
                                                     "status": 1,
                                                     "info": "TextElement",
-                                                    "value": "Toronto, Ontario, Canada"
+                                                    "value": "[Your Address]"
                                                 }
                                             ]
                                         },
@@ -144,7 +144,7 @@
                                                         "type": "TextElement",
                                                         "status": 1,
                                                         "info": "TextElement",
-                                                        "value": "1 4373456128"
+                                                        "value": "[Your Phone]"
                                                     }
                                                 ]
                                             },
@@ -182,7 +182,7 @@
                                                         "type": "TextElement",
                                                         "status": 1,
                                                         "info": "TextElement",
-                                                        "value": "izeng@uwaterloo.ca"
+                                                        "value": "[Your Email]"
                                                     }
                                                 ]
                                             },
@@ -195,13 +195,13 @@
                                     "table_width": "3"
                                 },
                                 "font_size": "0.8em",
-                                "font_family": "Garamond",
+                                "font_family": "Calibri",
                                 "bold": 0,
                                 "italic": 0,
                                 "underline": 0
                             },
                             "margin_n": "-15px",
-                            "margin_e": "50px",
+                            "margin_e": "0px",
                             "margin_s": "0px",
                             "margin_w": "40px"
                         },
@@ -243,7 +243,7 @@
                                                     "type": "URLElement",
                                                     "status": 1,
                                                     "info": "URLElement",
-                                                    "value": "www.linkedin.com/in/ivan-zeng-36b14a241/",
+                                                    "value": "www.linkedin.com/in/[your LinkedIn]",
                                                     "url": "https://www.linkedin.com/in/ivan-zeng-36b14a241/"
                                                 }
                                             ]
@@ -277,7 +277,7 @@
                                                         "type": "URLElement",
                                                         "status": 1,
                                                         "info": "URLElement",
-                                                        "value": "github.com/ivzeng",
+                                                        "value": "github.com/[you github]",
                                                         "url": "https://github.com/ivzeng"
                                                     }
                                                 ]
@@ -285,13 +285,13 @@
                                             "margin_n": "0px",
                                             "margin_e": "0px",
                                             "margin_s": "0px",
-                                            "margin_w": "25px"
+                                            "margin_w": "0px"
                                         }
                                     ],
                                     "table_width": "3"
                                 },
                                 "font_size": "0.8em",
-                                "font_family": "Garamond",
+                                "font_family": "Calibri",
                                 "bold": 0,
                                 "italic": 0,
                                 "underline": 0
@@ -638,7 +638,7 @@
                                             ]
                                         },
                                         "font_size": "1em",
-                                        "font_family": "Garamond",
+                                        "font_family": "Calibri",
                                         "bold": 0,
                                         "italic": 0,
                                         "underline": 0
@@ -1444,14 +1444,14 @@
                 }
             ]
         },
-        "font_size": "1em",
-        "font_family": "Serif",
+        "font_size": "12pt",
+        "font_family": "Calibri",
         "bold": 0,
         "italic": 0,
         "underline": 0
     },
-    "margin_n": "20px",
-    "margin_e": "20px",
-    "margin_s": "20px",
-    "margin_w": "20px"
+    "margin_n": "96px",
+    "margin_e": "96px",
+    "margin_s": "96px",
+    "margin_w": "96px"
 }
