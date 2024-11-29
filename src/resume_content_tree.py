@@ -60,7 +60,7 @@ class ContentTreeNode:
     def as_dict(self):
         return {
             "type": self.class_name,
-            "status": 1,
+            "status": self.status,
             "info": self.info
         }
 
@@ -1134,7 +1134,8 @@ class Sequence(Itemization):
     def as_html(self):
         if self.getattr('status') == 0:
             return ""
-        return f"{'\n'.join(component.as_html for component in self.components)}"
+        return f"{'\n'.join(component.as_html for component in self.components
+                            if component.get_bottom_component().getattr('status')==1)}"
 
 
     @property
@@ -1142,7 +1143,7 @@ class Sequence(Itemization):
         if self.status == 0:
             return ""
         return f"{'\n'.join(component.as_markdown for component in self.components
-                            if component.getattr('status')==1)}"
+                            if component.get_bottom_component().getattr('status')==1)}"
 
 
 
@@ -1245,13 +1246,15 @@ class InlineList(Itemization):
     def as_html(self):
         if self.status == 0:
             return ""
-        return f"{', '.join(component.as_html for component in self.components)}"
+        return f"{', '.join(component.as_html for component in self.components
+                            if component.get_bottom_component().getattr('status')==1)}"
 
     @property
     def as_markdown(self):
         if self.status == 0:
             return ""
-        return f"{', '.join(component.as_markdown for component in self.components)}"
+        return f"{', '.join(component.as_markdown for component in self.components
+                            if component.get_bottom_component().getattr('status')==1)}"
 
     @property
     def display_color(self):

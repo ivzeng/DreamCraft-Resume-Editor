@@ -3,7 +3,7 @@ temp/
 
 # Resume data
 resume/
-!resume/template.json
+!resume/template_0.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

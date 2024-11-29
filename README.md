@@ -40,8 +40,13 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
 4. Run main.py. Make sure that you have Python ($\ge$ 3.10) installed.
 
 ## Demo
+- here is a demo video:
+    [![Watch the video](demo/screenshot/front_1.png)](https://youtu.be/I41Lm6zrmmQ)
 
-[![Watch the video](demo/screenshot/front_1.png)](https://youtu.be/I41Lm6zrmmQ)
+- UI:
+![front](demo/screenshot/front_1.png)
+![front](demo/screenshot/workspace_1.png)
+
 
 ## Emailware
 
