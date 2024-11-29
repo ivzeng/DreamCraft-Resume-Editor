@@ -48,7 +48,8 @@ A <b>resume editor</b> with a user-friendly UI that offers helpful features for 
 ![workspace](demo/screenshot/workspace_1.png)
 
 - Sample Output:
-![output](demo/screenshot/output_1.png)
+
+    ![output](demo/screenshot/output_1.png)
 
 ## Emailware
 
